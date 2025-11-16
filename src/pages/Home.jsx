@@ -1,10 +1,10 @@
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
-import { ServicesGrid, AboutSection, ContactSection } from './components/Sections'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import { ServicesGrid, AboutSection, ContactSection } from '../components/Sections'
 
-function App() {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black">
       <Navbar />
       <main>
         <Hero />
@@ -24,5 +24,3 @@ function App() {
     </div>
   )
 }
-
-export default App
